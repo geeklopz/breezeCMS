@@ -1,10 +1,9 @@
-'use strict'
+'use strict';
 
 /** @type {import('@adonisjs/framework/src/Env')} */
-const Env = use('Env')
+const Env = use('Env');
 
 module.exports = {
-
   /*
   |--------------------------------------------------------------------------
   | Application Name
@@ -16,7 +15,7 @@ module.exports = {
   |
   */
 
-  name: Env.get('APP_NAME', 'AdonisJs'),
+  name: Env.get('APP_NAME', 'BreezeCMS'),
 
   /*
   |--------------------------------------------------------------------------
@@ -81,7 +80,6 @@ module.exports = {
     |
     */
     jsonpCallback: 'callback',
-
 
     /*
     |--------------------------------------------------------------------------
@@ -240,4 +238,4 @@ module.exports = {
     path: '/',
     maxAge: 7200
   }
-}
+};
